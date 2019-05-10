@@ -1,5 +1,129 @@
-$color-1: red;
-
-h1 {
-    color: $color-1;
-}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+ }
+ 
+ $font-1: 'Lato', sans-serif;
+ 
+ $color-1:#21C2F8;
+ $color-2: #FFF;
+ $color-3: #222533;
+ 
+ .row {
+    margin-top:50px;
+    margin-left:50px;
+    display: flex;
+    align-items: flex-end;
+ 
+    .btn {
+        margin-right:10px;
+        &:last-child {
+            margin-right:0;
+        }
+    }
+ 
+ }
+ 
+ 
+ .btn {
+    background-color: $color-1;
+    color: $color-2;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $font-1;
+    font-weight: 900;
+    font-size:14px;
+    padding: 11px 37px;
+    border:none;
+    &:hover {
+        background-color: $color-3;
+    }
+ 
+    &.medium {
+        font-size:18px;
+        padding:14px 46px;
+        margin-left: 22px;
+    }
+ 
+    &.large {
+        font-size:26px;
+        padding:23px 93px;
+        margin-left: 22px;
+    }
+ 
+    &.x-large {
+        font-size:36px;
+        padding:27px 102px;
+        margin-left: 20px;
+    }
+ }* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+ }
+ 
+ $font-1: 'Lato', sans-serif;
+ 
+ $color-1:#21C2F8;
+ $color-2: #FFF;
+ $color-3: #222533;
+ 
+ .row {
+    margin-top:50px;
+    margin-left:50px;
+    display: flex;
+    align-items: flex-end;
+ 
+    .btn {
+        margin-right:10px;
+        &:last-child {
+            margin-right:0;
+        }
+    }
+ 
+ }
+ 
+ 
+ .btn {
+    background-color: $color-1;
+    color: $color-2;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $font-1;
+    font-weight: 900;
+    font-size:14px;
+    padding: 11px 37px;
+    border:none;
+    &:hover {
+        background-color: $color-3;
+    }
+ 
+    &.medium {
+        font-size:18px;
+        padding:14px 46px;
+        margin-left: 21px;
+    }
+ 
+    &.large {
+        font-size:26px;
+        padding:23px 93px;
+        margin-left: 22px;
+    }
+ 
+    &.x-large {
+        font-size:36px;
+        padding:27px 102px;
+        margin-left: 20px;
+    }
+ }
